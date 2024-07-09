@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "solution-hbd-client-side-solution",
+    "id": "375179f4-9550-4a9c-8a05-3ccea421c81b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "solution-HBD description"
+      },
+      "longDescription": {
+        "default": "solution-HBD description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "solution-hbd Feature",
+        "description": "The feature that activates elements of the solution-hbd solution.",
+        "id": "af671eeb-f5ae-416c-968e-bb65c6e5bebd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/solution-hbd.sppkg"
+  }
+}

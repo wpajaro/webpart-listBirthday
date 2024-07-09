@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "solution-hbd",
+    "libraryId": "375179f4-9550-4a9c-8a05-3ccea421c81b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "solution-HBD",
+    "solutionShortDescription": "solution-HBD description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

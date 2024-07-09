@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-birthday-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloBirthday/HelloBirthdayWebPart.js",
+          "manifest": "./src/webparts/helloBirthday/HelloBirthdayWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloBirthdayWebPartStrings": "lib/webparts/helloBirthday/loc/{locale}.js"
+  }
+}
